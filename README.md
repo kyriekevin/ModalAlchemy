@@ -12,6 +12,7 @@ This repository is my personal digital lab notebook, designed for:
 - Experiment logs (chronologically tracked)
 - Insights and reflections (time-stamped)
 - Summaries & how-to notes (for engineering, theory, and best practices)
+- Codebase (usage, troubleshooting, best practices)
 
 > Most notes are bilingual (English & 中文)
 
@@ -19,14 +20,15 @@ This repository is my personal digital lab notebook, designed for:
 
 ## 🗂️ Structure
 
-| Folder/File | Description                                        |
-| ----------- | -------------------------------------------------- |
-| `/papers`   | Paper notes, organized by topic & publication date |
-| `/exps`     | Experiment logs, organized by date                 |
-| `/insights` | Insights & reflections, organized by date          |
-| `/notes`    | Summaries, how-to, and comparative notes           |
-| `/index.md` | Master index for navigation                        |
-| `README.md` | Project introduction                               |
+| Folder/File | Description                                                                        |
+| ----------- | ---------------------------------------------------------------------------------- |
+| `/papers`   | Paper notes, organized by topic & publication date                                 |
+| `/exps`     | Experiment logs, organized by date                                                 |
+| `/insights` | Insights & reflections, organized by date                                          |
+| `/notes`    | Summaries, how-to, and comparative notes                                           |
+| `/codebase` | Engineering notes for codebases and tools (usage, troubleshooting, best practices) |
+| `/index.md` | Master index for navigation                                                        |
+| `README.md` | Project introduction                                                               |
 
 ---
 
