@@ -23,4 +23,5 @@ Use this page to quickly navigate by topic, date, or note type.
 
 ## 🛠️ Codebase
 
-- [vLLM](./codebase/vllm.md) [[vllm]]
+- [uv](./codebase/uv.md)
+- [vLLM](./codebase/vllm.md)
