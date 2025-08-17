@@ -35,8 +35,8 @@ This repository is my personal digital lab notebook, designed for:
 ## 📖 How to Use
 
 - Browse `/papers` for topic-based paper notes, each with publication date and reading summary.
-- Check `/exps` and `insights` for chronological records of hands-on work and evolving thoughts.
-- Visit `/notes` and `codebase` for distilled how-to guides, engineering tips, and comparative summaries.
+- Check `/exps` and `/insights` for chronological records of hands-on work and evolving thoughts.
+- Visit `/notes` and `/codebase` for distilled how-to guides, engineering tips, and comparative summaries.
 
 ---
 
