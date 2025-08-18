@@ -27,7 +27,7 @@ This repository is my personal digital lab notebook, designed for:
 | `/insights` | Insights & reflections, organized by date                                          |
 | `/notes`    | Summaries, how-to, and comparative notes                                           |
 | `/codebase` | Engineering notes for codebases and tools (usage, troubleshooting, best practices) |
-| `/index.md` | Master index for navigation                                                        |
+| `index.md`  | Master index for navigation                                                        |
 | `README.md` | Project introduction                                                               |
 
 ---

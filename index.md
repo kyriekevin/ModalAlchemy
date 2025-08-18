@@ -9,6 +9,10 @@ Use this page to quickly navigate by topic, date, or note type.
 
 ### LLM
 
+#### Data
+
+- [persona (202406)](./papers/llm/data/20240628_persona.md)
+
 #### Train
 
 ##### RL
