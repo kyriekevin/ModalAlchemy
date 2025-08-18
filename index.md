@@ -27,6 +27,8 @@ Use this page to quickly navigate by topic, date, or note type.
 
 ## 💡 Insights
 
+- [grpo 202508](./insights/202508_grpo.md)
+
 ---
 
 ## 📝 Summaries & How-to Notes
