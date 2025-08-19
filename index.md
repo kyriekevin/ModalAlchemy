@@ -21,6 +21,7 @@ Use this page to quickly navigate by topic, date, or note type.
 
 ##### RL
 
+- [grm (202504)](./papers/llm/train/rl/20250405_grm.md)
 - [dapo (202503)](./papers/llm/train/rl/20250318_dapo.md)
 
 ---
