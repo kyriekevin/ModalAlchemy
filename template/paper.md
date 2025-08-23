@@ -10,14 +10,15 @@ authors: xxx
 # xxx
 
 ## 📚 Table of Contents
-
-- [📖 Paper Info](#-paper-info)
-- [📝 Summary](#-summary)
-- [🔑 Key Contributions](#-key-contributions)
-- [🧩 Method](#-method)
-- [📊 Experiments](#-experiments)
-- [💬 Personal Insights](#-personal-insights)
-- [🔗 Related Papers](#-related-papers)
+- [xxx](#xxx)
+  - [📚 Table of Contents](#-table-of-contents)
+  - [📖 Paper Info](#-paper-info)
+  - [📝 Summary](#-summary)
+  - [🔑 Key Contributions](#-key-contributions)
+  - [🧩 Method](#-method)
+  - [📊 Experiments](#-experiments)
+  - [💬 Personal Insights](#-personal-insights)
+  - [🔗 Related Papers](#-related-papers)
 
 ---
 

@@ -9,12 +9,13 @@ authors: xxx
 # xxx
 
 ## 📚 Table of Contents
-
-- [📝 Context](#-context)
-- [💡 Main Thoughts](#-main-thoughts)
-- [🔍 Further Questions](#-further-questions)
-- [🔗 Related Notes](#-related-notes)
-- [🏷️ References](#-references)
+- [xxx](#xxx)
+  - [📚 Table of Contents](#-table-of-contents)
+  - [📝 Context](#-context)
+  - [💡 Main Thoughts](#-main-thoughts)
+  - [🔍 Further Questions](#-further-questions)
+  - [🔗 Related Notes](#-related-notes)
+  - [🏷️ References](#️-references)
 
 ## 📝 Context
 
