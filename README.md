@@ -84,7 +84,7 @@
 
 ## 🏷️ Philosophy
 
-> This is a **living, imperfect, and ever-growing notebook** —  
+> This is a **living, imperfect, and ever-growing notebook** —
 > some notes may be outdated, but all reflect my research journey.
 
 🌌 _Alchemy is about transformation — so is research._
