@@ -17,6 +17,7 @@
 
 ## 📚 Table of Contents
 
+- [📚 Table of Contents](#-table-of-contents)
 - [🧠 About](#-about)
 - [✨ Recent Updates](#-recent-updates)
 - [🗂️ Structure](#️-structure)
@@ -46,6 +47,7 @@
 
 | Date       | Update                                                                                                                             |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| 2025-08-24 | <img src="./assets/notes.png" width="14"/> Transformer related calculations [Summary](./notes/202508_transformer.md)               |
 | 2025-08-19 | <img src="./assets/papers.png" width="14"/> Generalist Reward Modeling (GRM) [Reading Note](./papers/llm/train/rl/20250405_grm.md) |
 | 2025-08-18 | <img src="./assets/papers.png" width="14"/> Dynamic Fine-Tuning (DFT) [Reading Note](./papers/llm/train/sft/20250807_dft.md)       |
 | 2025-08-18 | <img src="./assets/papers.png" width="14"/> Persona [Reading Note](./papers/llm/data/20240628_persona.md)                          |
@@ -62,7 +64,7 @@
 
 ## 🗂️ Structure
 
-| 📁 Category | Description                                                |
+| 📁 Category  | Description                                                |
 | ----------- | ---------------------------------------------------------- |
 | `/papers`   | Paper notes (topic & publication date)                     |
 | `/exps`     | Experiment logs (chronological)                            |
