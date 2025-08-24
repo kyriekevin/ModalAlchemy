@@ -38,6 +38,8 @@ Use this page to quickly navigate by topic, date, or note type.
 
 ## 📝 Summaries & How-to Notes
 
+- [transformer 202508](./notes/202508_transformer.md)
+
 ---
 
 ## 🛠️ Codebase
