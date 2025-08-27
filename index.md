@@ -32,6 +32,7 @@ Use this page to quickly navigate by topic, date, or note type.
 
 ## <img src="./assets/insights.png" width="18" /> Insights
 
+- [<img src="./assets/insights.png" width="12" /> agent 202508](./insights/202508_agent.md)
 - [<img src="./assets/insights.png" width="12" /> grpo 202508](./insights/202508_grpo.md)
 
 ---
