@@ -97,7 +97,7 @@ models = [
 | AIME 2024 | Math                  | 2024年AIME竞赛原题，衡量模型高中竞赛数学解题能力。                  |
 | Math 500  | Math                  | 500道高难度数学竞赛题，主流数学推理评测集。                         |
 | Humaneval | Code                  | 164道Python编程题，主流代码生成能力评测集。                         |
-| ~~MBPP~~  | ~~Code~~              | ~~974道基础~~~~Python~~~~编程题，适合初学者，常用于代码能力评测。~~ |
+| ~~MBPP~~  | ~~Code~~              | ~~974道基础Python编程题，适合初学者，常用于代码能力评测。~~ |
 | IFEval    | Instruction Following | 主流指令跟随能力评测集，覆盖多任务。                                |
 
 > MBPP测试精度差异大难以对齐，不采用
