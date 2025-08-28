@@ -47,6 +47,7 @@
 
 | Date       | Update                                                                                                                             |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| 2025-08-28 | <img src="./assets/notes.png" width="14"/> Megatron data parallelism [Summary](./notes/infra/Megatron/202508_dp.md)                |
 | 2025-08-27 | <img src="./assets/insights.png" width="14"/> Agent [Insight Note](./insights/202508_agent.md)                                     |
 | 2025-08-25 | <img src="./assets/codebase.png" width="14"/> opencompass [Usage Intro](./codebase/opencompass.md)                                 |
 | 2025-08-24 | <img src="./assets/notes.png" width="14"/> Transformer related calculations [Summary](./notes/202508_transformer.md)               |
@@ -56,10 +57,13 @@
 | 2025-08-18 | <img src="./assets/insights.png" width="14"/> DAPO [Insight Note](./insights/202508_grpo.md)                                       |
 | 2025-08-17 | <img src="./assets/papers.png" width="14"/> DAPO [Reading Note](./papers/llm/train/rl/20250318_dapo.md)                            |
 | 2025-08-16 | <img src="./assets/codebase.png" width="14"/> vllm [Usage Intro](./codebase/vllm.md)                                               |
-| 2025-08-16 | <img src="./assets/codebase.png" width="14"/> uv [Usage Intro](./codebase/uv.md)                                                   |
 
 <details>
 <summary>🔎 <b>Click to view previous updates</b></summary>
+<p>
+[2025-08-16] <img src="./assets/codebase.png" width="14"/>
+<a href="./codebase/uv.md">uv Usage Intro</a>
+</p>
 </details>
 
 ---

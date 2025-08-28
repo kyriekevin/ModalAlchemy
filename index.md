@@ -5,24 +5,24 @@ Use this page to quickly navigate by topic, date, or note type.
 
 ---
 
-## <img src="./assets/papers.png" width="18"/> Papers by Topic
+## <img src="./assets/papers.png" width="18" /> Papers by Topic
 
 ### LLM
 
 #### Data
 
-- [<img src="./assets/papers.png" width="12"/> persona (202406)](./papers/llm/data/20240628_persona.md)
+- [<img src="./assets/papers.png" width="12" /> persona (202406)](./papers/llm/data/20240628_persona.md)
 
 #### Train
 
 ##### SFT
 
-- [<img src="./assets/papers.png" width="12"/> dft (202508)](./papers/llm/train/sft/20250807_dft.md)
+- [<img src="./assets/papers.png" width="12" /> dft (202508)](./papers/llm/train/sft/20250807_dft.md)
 
 ##### RL
 
-- [<img src="./assets/papers.png" width="12"/> grm (202504)](./papers/llm/train/rl/20250405_grm.md)
-- [<img src="./assets/papers.png" width="12"/> dapo (202503)](./papers/llm/train/rl/20250318_dapo.md)
+- [<img src="./assets/papers.png" width="12" /> grm (202504)](./papers/llm/train/rl/20250405_grm.md)
+- [<img src="./assets/papers.png" width="12" /> dapo (202503)](./papers/llm/train/rl/20250318_dapo.md)
 
 ---
 
@@ -39,6 +39,7 @@ Use this page to quickly navigate by topic, date, or note type.
 
 ## <img src="./assets/notes.png" width="18" /> Summaries & How-to Notes
 
+- [<img src="./assets/notes.png" width="12" /> megatron-dp 202508](./notes/infra/Megatron/202508_dp.md)
 - [<img src="./assets/notes.png" width="12" /> transformer 202508](./notes/202508_transformer.md)
 
 ---
