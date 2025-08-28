@@ -11,7 +11,7 @@ author: zyz
 
 ## 📖 简介
 
-OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets.
+OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2, GPT-4, Llama2, Qwen, GLM, Claude, etc) over 100+ datasets.
 
 ## 📝 官方文档与资源
 
