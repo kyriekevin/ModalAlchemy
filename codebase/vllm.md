@@ -545,10 +545,10 @@ class MultiLoRAInference:
         )
 
         self.lora_requests = {}
-        for lora_id, lora_path in lora_paths.items():
+        for i, (lora_id, lora_path) in enumerate(lora_paths.items(), 1):
             self.lora_requests[lora_id] = LoRARequest(
                 lora_name=lora_id,
-                lora_int_id=hash(lora_id) % 1000000,
+                lora_int_id=i,
                 lora_path=lora_path
             )
 
