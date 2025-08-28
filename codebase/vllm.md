@@ -520,3 +520,147 @@ for message in entries:
 ```
 
 ![image.png](https://raw.githubusercontent.com/kyriekevin/img_auto/main/Obsidian/202508161640523.png)
+
+### 多lora推理
+
+```Python
+from transformers import AutoTokenizer
+from vllm import LLM, SamplingParams
+from vllm.lora.request import LoRARequest
+
+class MultiLoRAInference:
+    def __init__(self, model_path: str, lora_paths: dict):
+        self.tokenizer = AutoTokenizer.from_pretrained(
+            model_path,
+            trust_remote_code=True
+        )
+
+        self.llm = LLM(
+            model=model_path,
+            enable_lora=True,
+            max_lora_rank=64,
+            max_loras=len(lora_paths),
+            gpu_memory_utilization=0.8,
+            trust_remote_code=True
+        )
+
+        self.lora_requests = {}
+        for lora_id, lora_path in lora_paths.items():
+            self.lora_requests[lora_id] = LoRARequest(
+                lora_name=lora_id,
+                lora_int_id=hash(lora_id) % 1000000,
+                lora_path=lora_path
+            )
+
+    def generate(self, messages: list, lora_id: str, enable_thinking: bool = False, **sampling_kwargs):
+        text = self.tokenizer.apply_chat_template(
+            messages,
+            tokenize=False,
+            add_generation_prompt=True,
+            enable_thinking=enable_thinking
+        )
+
+        sampling_params = SamplingParams(
+            temperature=sampling_kwargs.get('temperature', 0.6),
+            top_p=sampling_kwargs.get('top_p', 0.95),
+            top_k=sampling_kwargs.get('top_k', 20),
+            max_tokens=sampling_kwargs.get('max_tokens', 32768)
+        )
+
+        outputs = self.llm.generate(
+            [text],
+            sampling_params,
+            lora_request=self.lora_requests[lora_id]
+        )
+
+        return outputs[0].outputs[0].text
+
+if __name__ == "__main__":
+    lora_configs = {
+        "task_a": "./lora_a",
+        "task_b": "./lora_b",
+    }
+
+    inference = MultiLoRAInference(
+        model_path="",
+        lora_paths=lora_configs
+    )
+
+    result_a = inference.generate(
+        messages=[{"role": "user", "content": "who are you?"}],
+        lora_id="task_a",
+        max_tokens=256
+    )
+    print("Lora A result:")
+    print(result_a)
+    print("\n" + "-" * 50 + "\n")
+
+    result_b = inference.generate(
+        messages=[{"role": "user", "content": "who are you?"}],
+        lora_id="task_b",
+        max_tokens=256
+    )
+    print("Lora B result:")
+    print(result_b)
+
+```
+
+![image.png](https://raw.githubusercontent.com/kyriekevin/img_auto/main/Obsidian/202508281716494.png)
+![image.png](https://raw.githubusercontent.com/kyriekevin/img_auto/main/Obsidian/202508281716543.png)
+
+### 获得Prob
+
+```Python
+class VLLMProbabilityExtractor:
+    def __init__(self, model_name, model_len=4096):
+        self.llm = LLM(model=model_name)
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+        self.sampling_params = SamplingParams(
+            temperature=0.0,
+            seed=42,
+            max_tokens=model_len,
+            logprobs=20      # 获取top 20的token概率
+        )
+
+    def generate_with_probs(self, prompts):
+        if isinstance(prompts, str):
+            prompts = [prompts]
+
+        outputs = self.llm.generate(prompts, sampling_params=self.sampling_params)
+
+        results = []
+        for output in outputs:
+            generated_text = output.outputs[0].text
+            logprobs = output.outputs[0].logprobs if hasattr(output.outputs[0], 'logprobs') else None
+
+            results.append({
+                'text': generated_text,
+                'logprobs': logprobs
+            })
+
+        return results
+
+    def extract_token_probabilities(self, logprobs, target_tokens):
+        if not logprobs:
+            return {token: 0.0 for token in target_tokens}
+
+        token_to_id = {}
+        for token in target_tokens:
+            token_ids = self.tokenizer.encode(token, add_special_tokens=False)
+            if token_ids:
+                token_to_id[token_ids[0]] = token
+
+        token_probs = {token: 0.0 for token in target_tokens}
+
+        for position_logprobs in logprobs:
+            if isinstance(position_logprobs, dict):
+                for token_id, logprob_obj in position_logprobs.items():
+                    if token_id in token_to_id:
+                        token = token_to_id[token_id]
+                        prob = math.exp(logprob_obj.logprob)
+                        token_probs[token] = max(token_probs[token], prob)
+
+        return token_probs
+```
+
