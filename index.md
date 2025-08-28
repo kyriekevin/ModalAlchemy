@@ -5,44 +5,46 @@ Use this page to quickly navigate by topic, date, or note type.
 
 ---
 
-## 📚 Papers by Topic
+## <img src="./assets/papers.png" width="18"/> Papers by Topic
 
 ### LLM
 
 #### Data
 
-- [persona (202406)](./papers/llm/data/20240628_persona.md)
+- [<img src="./assets/papers.png" width="12"/> persona (202406)](./papers/llm/data/20240628_persona.md)
 
 #### Train
 
 ##### SFT
 
-- [dft (202508)](./papers/llm/train/sft/20250807_dft.md)
+- [<img src="./assets/papers.png" width="12"/> dft (202508)](./papers/llm/train/sft/20250807_dft.md)
 
 ##### RL
 
-- [grm (202504)](./papers/llm/train/rl/20250405_grm.md)
-- [dapo (202503)](./papers/llm/train/rl/20250318_dapo.md)
+- [<img src="./assets/papers.png" width="12"/> grm (202504)](./papers/llm/train/rl/20250405_grm.md)
+- [<img src="./assets/papers.png" width="12"/> dapo (202503)](./papers/llm/train/rl/20250318_dapo.md)
 
 ---
 
-## 🧪 Experiments (Chronological)
+## <img src="./assets/exps.png" width="18" /> Experiments (Chronological)
 
 ---
 
-## 💡 Insights
+## <img src="./assets/insights.png" width="18" /> Insights
 
-- [grpo 202508](./insights/202508_grpo.md)
-
----
-
-## 📝 Summaries & How-to Notes
-
-- [transformer 202508](./notes/202508_transformer.md)
+- [<img src="./assets/insights.png" width="12" /> agent 202508](./insights/202508_agent.md)
+- [<img src="./assets/insights.png" width="12" /> grpo 202508](./insights/202508_grpo.md)
 
 ---
 
-## 🛠️ Codebase
+## <img src="./assets/notes.png" width="18" /> Summaries & How-to Notes
 
-- [uv](./codebase/uv.md)
-- [vLLM](./codebase/vllm.md)
+- [<img src="./assets/notes.png" width="12" /> transformer 202508](./notes/202508_transformer.md)
+
+---
+
+## <img src="./assets/codebase.png" width="18" /> Codebase
+
+- [<img src="./assets/codebase.png" width="12" /> opencompass](./codebase/opencompass.md)
+- [<img src="./assets/codebase.png" width="12" /> uv](./codebase/uv.md)
+- [<img src="./assets/codebase.png" width="12" /> vLLM](./codebase/vllm.md)

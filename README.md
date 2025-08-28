@@ -47,6 +47,8 @@
 
 | Date       | Update                                                                                                                             |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| 2025-08-27 | <img src="./assets/insights.png" width="14"/> Agent [Insight Note](./insights/202508_agent.md)                                     |
+| 2025-08-25 | <img src="./assets/codebase.png" width="14"/> opencompass [Usage Intro](./codebase/opencompass.md)                                 |
 | 2025-08-24 | <img src="./assets/notes.png" width="14"/> Transformer related calculations [Summary](./notes/202508_transformer.md)               |
 | 2025-08-19 | <img src="./assets/papers.png" width="14"/> Generalist Reward Modeling (GRM) [Reading Note](./papers/llm/train/rl/20250405_grm.md) |
 | 2025-08-18 | <img src="./assets/papers.png" width="14"/> Dynamic Fine-Tuning (DFT) [Reading Note](./papers/llm/train/sft/20250807_dft.md)       |
@@ -64,7 +66,7 @@
 
 ## 🗂️ Structure
 
-| 📁 Category  | Description                                                |
+| 📁 Category | Description                                                |
 | ----------- | ---------------------------------------------------------- |
 | `/papers`   | Paper notes (topic & publication date)                     |
 | `/exps`     | Experiment logs (chronological)                            |
