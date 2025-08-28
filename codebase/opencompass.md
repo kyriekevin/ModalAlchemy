@@ -136,7 +136,7 @@ models = [
 
 ### Think开关
 
-```Python
+```python
 from opencompass.models import VLLMwithChatTemplate
 from opencompass.utils.text_postprocessors import extract_non_reasoning_content
 
