@@ -1,6 +1,6 @@
 ---
 title: Transformer Calculations
-date: 2025-08-28T00:00:00.000Z
+date: 2025-08-24T00:00:00.000Z
 tags:
   - infra
   - transformer
@@ -355,3 +355,4 @@ DeepMind在2022年发表的里程碑式论文《Training Compute-Optimal Large L
 ## 🏷️ References
 
 ---
+
