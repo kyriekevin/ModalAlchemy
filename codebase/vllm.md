@@ -648,8 +648,10 @@ class VLLMProbabilityExtractor:
         token_to_id = {}
         for token in target_tokens:
             token_ids = self.tokenizer.encode(token, add_special_tokens=False)
-            if token_ids:
+            if len(token_ids) == 1:
                 token_to_id[token_ids[0]] = token
+            elif token_ids:
+                print(f"警告：目标 token '{token}' 包含多个 token ID ({token_ids})，将被忽略。")
 
         token_probs = {token: 0.0 for token in target_tokens}
 
