@@ -7,6 +7,10 @@ Use this page to quickly navigate by topic, date, or note type.
 
 ## <img src="./assets/papers.png" width="18" /> Papers by Topic
 
+### Infra
+
+- [<img src="./assets/papers.png" width="12" /> GPipe (201811)](./papers/infra/20181116_gpipe.md)
+
 ### LLM
 
 #### Data
