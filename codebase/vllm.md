@@ -665,4 +665,3 @@ class VLLMProbabilityExtractor:
 
         return token_probs
 ```
-
